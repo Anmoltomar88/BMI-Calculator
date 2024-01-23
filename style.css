@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    height:80vh;
+}
+
+.card {
+    padding: 20px;
+    box-shadow: 0px 0px 9px 10px plum;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+    transition: 1s;
+}
+.card:hover{
+    box-shadow: 0px 0px 9px 10px rgb(119, 126, 230);;
+   
+}
+h1{
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+label{
+    font-size: 25px;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid plum;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    transition: 1s;
+}
+
+input:hover{
+    border-bottom: 1px solid blue;
+    
+}
+button {
+    background-color: white;
+    margin: 20px;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 9px 10px plum;
+    transition: 100ms;
+}
+button:hover{
+    box-shadow: 0px 0px 9px 15px plum;
+}
+
+.output{
+    font-size: x-large;
+}
+
